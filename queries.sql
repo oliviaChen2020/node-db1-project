@@ -10,7 +10,7 @@
 --select * from orders order by orderdate desc limit 10
 
 -- Find all customers that live in London, Madrid, or Brazil
---select * from Customers where City ="London" or City ="Madrid" or City ="Brazil" 
+--select * from Customers where City ="London" or City ="Madrid" or Country ="Brazil" 
 
 -- Add a customer record for "The Shire", the contact name is "Bilbo Baggins" the address is -"1 Hobbit-Hole" in "Bag End", postal code "111" and the country is "Middle Earth"
 --insert into customers (customername, contactname, address, city, postalcode, country) values ('The Shire', 'Bilbo Baggins', '1 Hobbit-Hole','Bag End', '111', 'Middle Earth') ;
